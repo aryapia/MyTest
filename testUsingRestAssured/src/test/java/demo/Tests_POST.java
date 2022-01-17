@@ -33,6 +33,7 @@ public class Tests_POST {
 	public static String clientId = "some_client_id";
 	public static String redirectUri = "some_redirect_uri";
 	public static String scope = "some_scope";
+	
 	public static String username = "some_email";
 	public static String password = "some_password";
 	public static String accessToken;
@@ -120,7 +121,7 @@ public class Tests_POST {
 				then().
 				statusCode(200).log().all();
 		System.out.println("just test");
-				   System.out.println("just test");
+				   System.out.println("just test1111");
 
 	}
 

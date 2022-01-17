@@ -119,8 +119,8 @@ public class Tests_POST {
 				post(mydata[4][2]).
 				then().
 				statusCode(200).log().all();
-		System.out.println("just test);
-				   System.out.println("just test);
+		System.out.println("just test");
+				   System.out.println("just test");
 
 	}
 
